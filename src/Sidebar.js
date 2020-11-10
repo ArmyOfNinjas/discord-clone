@@ -14,8 +14,6 @@ import SettingsIcon from '@material-ui/icons/Settings';
 function Sidebar(props) {
     return (
         <div className="sidebar">
-            <h1>I'm a sidebar</h1>
-
             <div className="sidebar__top">
                 <h3> Your channel</h3>
                 <ExpandMoreIcon></ExpandMoreIcon>
@@ -53,7 +51,8 @@ function Sidebar(props) {
             </div>
 
             <div className="sidebar__profile">
-                <Avatar className="sidebar__profileAvatar" />
+                <Avatar className="sidebar__profileAvatar"
+                    src="https://sun9-53.userapi.com/c10892/u1823614/-6/x_010178ca.jpg" />
                 <div className="sidebar__profileInfo">
                     <h3>@profile</h3>
                     <p>#thisIsMyID</p>
